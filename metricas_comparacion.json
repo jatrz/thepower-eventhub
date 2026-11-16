@@ -1,0 +1,15 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "test_examples": 50,
+  "baseline_correct": 34,
+  "baseline_accuracy": 0.68,
+  "lora_correct": 42,
+  "lora_accuracy": 0.84,
+  "labels": [
+    "pedido",
+    "devolucion",
+    "queja",
+    "otro"
+  ],
+  "train_examples": 250
+}

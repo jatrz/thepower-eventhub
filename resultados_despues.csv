@@ -1,0 +1,51 @@
+mensaje,categoria,grupo,prediccion,salida_modelo,correcto
+"Hola, necesito gestionar lo siguiente: consultar si los gastos de devolución son gratuitos.",devolucion,devolucion_9,devolucion, devolucion,True
+"Por favor, indicadme los pasos para consultar si los gastos de devolución son gratuitos.",devolucion,devolucion_9,devolucion, Devolucion,True
+"Necesito información, concretamente quiero preguntar si existe un programa de puntos.",otro,otro_3,devolucion, Devolucion,False
+"Por favor, ¿me podéis indicar cómo puedo consultar el estado de un pedido que aparece como enviado?",pedido,pedido_14,pedido,pedido,True
+"Hola, necesito consultar si se puede modificar la talla antes del envío. ¿Podéis ayudarme?",pedido,pedido_11,pedido,pedido,True
+Necesito trasladar mi malestar: comunicar que la web falla continuamente al intentar comprar.,queja,queja_7,queja,queja,True
+Una consulta: ¿podríais ayudarme a preguntar si existe un programa de puntos?,otro,otro_3,otro,otro,True
+"Buenas, ¿me podéis informar sobre esto? Quiero preguntar si ofrecen envoltorio para regalo.",otro,otro_6,devolucion, Devolucion,False
+Os escribo para dejar constancia de que quiero quejarme por la espera excesiva en atención al cliente.,queja,queja_13,queja,queja,True
+Me gustaría resolver esto: necesito saber cuántos días tengo para devolver una compra. Gracias.,devolucion,devolucion_4,devolucion, Devolucion,True
+"Buenas, ¿me podéis informar sobre esto? Quiero preguntar si existe un programa de puntos.",otro,otro_3,devolucion, Devolucion,False
+"Buenas, ¿podéis ayudarme a saber cuántos días tengo para devolver una compra?",devolucion,devolucion_4,devolucion,devolucion,True
+Quiero presentar una queja: quejarme por la espera excesiva en atención al cliente.,queja,queja_13,queja,queja,True
+Quiero tramitar una gestión porque necesito devolver una camiseta porque no me queda bien.,devolucion,devolucion_0,devolucion, devolucion,True
+"Hola, necesito consultar el estado de un pedido que aparece como enviado. ¿Podéis ayudarme?",pedido,pedido_14,pedido,pedido,True
+"Hola, necesito confirmar la fecha estimada de entrega. ¿Podéis ayudarme?",pedido,pedido_12,pedido,pedido,True
+Me gustaría resolver esto: necesito consultar si los gastos de devolución son gratuitos. Gracias.,devolucion,devolucion_9,devolucion, Devolucion,True
+Necesito trasladar mi malestar: quejarme por la espera excesiva en atención al cliente.,queja,queja_13,queja,queja,True
+Quiero tramitar una gestión porque necesito consultar si los gastos de devolución son gratuitos.,devolucion,devolucion_9,devolucion, Devolucion,True
+"Buenas, ¿podéis ayudarme a consultar si los gastos de devolución son gratuitos?",devolucion,devolucion_9,devolucion, devolucion,True
+Tengo una consulta: necesito consultar el estado de un pedido que aparece como enviado.,pedido,pedido_14,pedido,pedido,True
+"Buenas, quisiera confirmar la fecha estimada de entrega. Gracias.",pedido,pedido_12,pedido,pedido,True
+"Por favor, indicadme los pasos para devolver una camiseta porque no me queda bien.",devolucion,devolucion_0,devolucion, Devolucion,True
+Quisiera saber algo sobre la empresa: preguntar si existe un programa de puntos. Gracias.,otro,otro_3,otro,otro,True
+"Hola, necesito gestionar lo siguiente: saber cuántos días tengo para devolver una compra.",devolucion,devolucion_4,devolucion, Devolucion,True
+"Hola, tengo una duda general: preguntar si ofrecen envoltorio para regalo.",otro,otro_6,devolucion, Devolucion,False
+"Buenas, ¿podéis ayudarme a devolver una camiseta porque no me queda bien?",devolucion,devolucion_0,devolucion,devolucion,True
+"Hola, necesito gestionar lo siguiente: devolver una camiseta porque no me queda bien.",devolucion,devolucion_0,devolucion, Devolucion,True
+Os escribo porque quiero confirmar la fecha estimada de entrega. Un saludo.,pedido,pedido_12,pedido,pedido,True
+"Por favor, indicadme los pasos para saber cuántos días tengo para devolver una compra.",devolucion,devolucion_4,devolucion, Devolucion,True
+"Necesito información, concretamente quiero preguntar si ofrecen envoltorio para regalo.",otro,otro_6,devolucion, Devolucion,False
+Os escribo para dejar constancia de que quiero comunicar que la web falla continuamente al intentar comprar.,queja,queja_7,devolucion, Devolucion,False
+Mi experiencia ha sido negativa: comunicar que la web falla continuamente al intentar comprar.,queja,queja_7,queja,queja,True
+Quisiera saber algo sobre la empresa: preguntar si ofrecen envoltorio para regalo. Gracias.,otro,otro_6,otro, Otro,True
+"Buenas, quisiera consultar si se puede modificar la talla antes del envío. Gracias.",pedido,pedido_11,pedido,pedido,True
+"Hola, tengo una duda general: preguntar si existe un programa de puntos.",otro,otro_3,otro, Otro,True
+Tengo una consulta: necesito confirmar la fecha estimada de entrega.,pedido,pedido_12,pedido,pedido,True
+Estoy bastante descontento porque necesito comunicar que la web falla continuamente al intentar comprar.,queja,queja_7,queja,queja,True
+Quiero tramitar una gestión porque necesito saber cuántos días tengo para devolver una compra.,devolucion,devolucion_4,devolucion, Devolucion,True
+Os escribo porque quiero consultar si se puede modificar la talla antes del envío. Un saludo.,pedido,pedido_11,pedido,pedido,True
+Mi experiencia ha sido negativa: quejarme por la espera excesiva en atención al cliente.,queja,queja_13,queja,queja,True
+Os escribo porque quiero consultar el estado de un pedido que aparece como enviado. Un saludo.,pedido,pedido_14,pedido,pedido,True
+"Por favor, ¿me podéis indicar cómo puedo consultar si se puede modificar la talla antes del envío?",pedido,pedido_11,devolucion, Devolucion,False
+Quiero presentar una queja: comunicar que la web falla continuamente al intentar comprar.,queja,queja_7,queja,queja,True
+"Por favor, ¿me podéis indicar cómo puedo confirmar la fecha estimada de entrega?",pedido,pedido_12,pedido,pedido,True
+Me gustaría resolver esto: necesito devolver una camiseta porque no me queda bien. Gracias.,devolucion,devolucion_0,devolucion,devolucion,True
+Una consulta: ¿podríais ayudarme a preguntar si ofrecen envoltorio para regalo?,otro,otro_6,otro, Otro,True
+Estoy bastante descontento porque necesito quejarme por la espera excesiva en atención al cliente.,queja,queja_13,queja,queja,True
+"Buenas, quisiera consultar el estado de un pedido que aparece como enviado. Gracias.",pedido,pedido_14,pedido,pedido,True
+Tengo una consulta: necesito consultar si se puede modificar la talla antes del envío.,pedido,pedido_11,devolucion, Devolucion,False
