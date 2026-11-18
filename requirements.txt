@@ -5,3 +5,5 @@ python-dotenv==1.2.4
 langgraph==1.2.22
 langgraph-checkpoint-postgres==3.2.1
 psycopg==3.3.9
+langfuse==5.2.0
+langsmith==0.14.17

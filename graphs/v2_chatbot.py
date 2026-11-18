@@ -63,9 +63,26 @@ def ruta_visible(ruta: Path) -> str:
         return ruta.name
 
 
+def _invalidar_cache_langsmith() -> None:
+    """Hace visible el .env al SDK. No añade callbacks ni toca el grafo."""
+    try:
+        from langsmith.utils import get_env_var, get_tracer_project
+    except ImportError:
+        return
+    get_env_var.cache_clear()
+    get_tracer_project.cache_clear()
+
+
 def cargar_entorno() -> None:
-    """Carga ``.env`` desde la raíz del proyecto sin pisar variables ya exportadas."""
+    """Carga ``.env`` desde la raíz del proyecto sin pisar variables ya exportadas.
+
+    LangSmith memoriza ``LANGSMITH_TRACING`` en la primera lectura. Si un import
+    la hace antes de cargar ``.env``, el trazado quedaría apagado aunque las
+    variables estén escritas. Invalidar esa caché aquí basta: no hace falta un
+    callback en el grafo.
+    """
     load_dotenv(RUTA_ENV)
+    _invalidar_cache_langsmith()
 
 
 def leer_configuracion() -> tuple[str, str]:

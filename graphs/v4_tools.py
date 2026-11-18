@@ -161,13 +161,22 @@ def ejecutar_consulta(
     texto: str,
     *,
     limite_pasos: int = LIMITE_PASOS,
+    config: dict | None = None,
 ) -> tuple[list[BaseMessage], bool]:
-    """Ejecuta la consulta. Si el límite se alcanza, devuelve lo ya producido."""
+    """Ejecuta la consulta. Si el límite se alcanza, devuelve lo ya producido.
+
+    ``config`` se fusiona con el límite de pasos. Sirve para callbacks de
+    observabilidad o un ``thread_id``. Sin ``config``, el comportamiento es el
+    de la demostración original.
+    """
     mensajes: list[BaseMessage] = [HumanMessage(content=texto)]
+    stream_config = {"recursion_limit": limite_pasos}
+    if config:
+        stream_config.update(config)
     try:
         for evento in graph.stream(
             {"messages": mensajes},
-            {"recursion_limit": limite_pasos},
+            stream_config,
             stream_mode="updates",
         ):
             for actualizacion in evento.values():
